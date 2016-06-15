@@ -4,8 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "init": "",
+    "create": "node --harmony lib/create",
+    "compile": "node --harmony lib/compile",
+    "publish": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jesse Chung <jesse@soob.co>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "front-matter": "^2.1.0",
+    "glob": "^7.0.3",
+    "jade": "^1.11.0",
+    "marked": "^0.3.5",
+    "mkdirp": "^0.5.1",
+    "pug": "^2.0.0-beta3"
+  }
 }
